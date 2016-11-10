@@ -3,15 +3,22 @@ package capitulo2;
 public class TestaFuncionario {
 
 	public static void main(String[] args) {
-		        Funcionario f1 = new Funcionario();
 
-		        f1.nome = "Hugo";
-		        f1.salario = 100;
-		        f1.recebeAumento(50);
+		Funcionario funcionario = new Funcionario();
+		Funcionario funcionario2 = new Funcionario();
 
-		     //   System.out.println("salario atual:" + f1.salario);
-		     //   System.out.println("ganho anual:" + f1.calculaGanhoAnual());
-		        f1.mostra();
+		funcionario.nome = "Danilo";
+		funcionario.salario = 100;
+
+		funcionario2.nome = "Danilo";
+		funcionario2.salario = 100;
+
+		if (funcionario == funcionario2) {
+			System.out.println("iguais");
+
+		} else {
+			System.out.println("diferentes");
+		}
 	}
 
 }
