@@ -5,20 +5,17 @@ public class TestaFuncionario {
 	public static void main(String[] args) {
 
 		Funcionario funcionario = new Funcionario();
-		Funcionario funcionario2 = new Funcionario();
+	   Data data = new Data();
+	   data.ano = 1970;
+	   data.dia =  26;
+	   data.mes = 3;
 
 		funcionario.nome = "Danilo";
 		funcionario.salario = 100;
+		funcionario.dataEntrada = data;
+		
+ funcionario.mostra();
 
-		funcionario2.nome = "Danilo";
-		funcionario2.salario = 100;
-
-		if (funcionario == funcionario2) {
-			System.out.println("iguais");
-
-		} else {
-			System.out.println("diferentes");
-		}
 	}
 
 }
