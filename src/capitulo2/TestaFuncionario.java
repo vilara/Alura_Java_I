@@ -10,9 +10,9 @@ public class TestaFuncionario {
 	   Date data = new Date();
 	 
 
-		funcionario.nome = "Danilo";
-		funcionario.salario = 100;
-		funcionario.dataEntrada = data;
+		funcionario.setNome("Danilo");
+		funcionario.setSalario(100);
+		funcionario.setDataEntrada(data);
 		
  funcionario.mostra();
 
