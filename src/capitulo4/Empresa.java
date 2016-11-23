@@ -5,6 +5,11 @@ import java.text.SimpleDateFormat;
 import capitulo2.Funcionario;
 
 public class Empresa {
+	
+	public Empresa (int tamanhoDoArray){
+        this.empregados = new Funcionario [tamanhoDoArray];
+    }
+
 	String nome;
 	int cnpj;
 	private Funcionario[] empregados;

@@ -7,8 +7,7 @@ import capitulo2.Funcionario;
 public class TesteEmpresa {
 
 	public static void main(String[] args) {
-		Empresa empresa = new Empresa();
-		empresa.setEmpregados(new Funcionario[10]);
+		Empresa empresa = new Empresa(10);
 		Funcionario f1 = new Funcionario();
 		f1.setSalario(1000);
 		f1.setDataEntrada(new Date());
@@ -20,6 +19,7 @@ public class TesteEmpresa {
 		empresa.adicionar(f2);
 		
 		empresa.mostraEmpregados();
+		System.out.println("Número de funcionários cadastrados: " + Funcionario.getIdentificador());
 	}
 
 }

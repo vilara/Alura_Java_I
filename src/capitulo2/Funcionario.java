@@ -5,12 +5,30 @@ import java.util.Date;
 
 public class Funcionario {
 
+	public Funcionario() {
+		this.incrementaIdentificador();
+	}
+
+	public Funcionario(String nome) {
+		this();
+		this.nome = nome;
+	}
+	
+	public static int getIdentificador() {
+		return identificador;
+	}
+	
+	private static int identificador;
 	private String nome;
 	private String departamento;
 	private double salario;
 	private Date dataEntrada;
 	private String rg;
 	private double ganhoAnual;
+	
+	public void incrementaIdentificador(){
+		this.identificador++;
+	}
 
 	public String getNome() {
 		return nome;
