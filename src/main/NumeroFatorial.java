@@ -10,7 +10,7 @@ public static void main(String[] args) {
 			
 			fatorial = fatorial*i;
 		}
-		System.out.println("O fatorial de "+numero+ " é "+fatorial);
+		System.out.println("O fatorial de "+numero+ " Ã© "+fatorial);
 		numero++;
 	}
 }

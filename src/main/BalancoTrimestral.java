@@ -8,6 +8,6 @@ public static void main(String[] args) {
 	int gastoTrimestre = gastoJaneiro + gastoFevereiro + gastoMarco;
 	System.out.println(gastoTrimestre);
 	double mediaMensal = gastoTrimestre/3;
-	System.out.println("A média mensal é = "+mediaMensal);
+	System.out.println("A mÃ©dia mensal Ã© = "+mediaMensal);
 }
 }

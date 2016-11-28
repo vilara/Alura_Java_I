@@ -16,7 +16,7 @@ double calculaGanhoAnual(){
 void mostra() {
     System.out.println("Nome: " + this.nome);
     System.out.println("Departamento: " + this.departamento);
-    System.out.println("Sal·rio: " + this.salario);
+    System.out.println("Sal√°rio: " + this.salario);
     System.out.println("Data Entrada: " + this.dataEntrada.dia+"/"+this.dataEntrada.mes+"/"+this.dataEntrada.ano);
     System.out.println("Rg: " + this.rg);
     System.out.println("Nome: " + this.calculaGanhoAnual());
