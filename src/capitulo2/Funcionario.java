@@ -97,7 +97,7 @@ public class Funcionario {
 	public void mostra() {
 		System.out.println("Nome: " + this.getNome());
 		System.out.println("Departamento: " + this.getDepartamento());
-		System.out.println("Sal�rio: " + this.getSalario());
+		System.out.println("Salário: " + this.getSalario());
 		System.out.println("Data Entrada: " + this.getDataEntrada().getTime());
 		System.out.println("Rg: " + this.getRg());
 		System.out.println("Nome: " + this.calculaGanhoAnual());
