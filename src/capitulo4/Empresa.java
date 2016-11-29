@@ -29,13 +29,13 @@ public class Empresa {
 	void mostraEmpregados() {
 		
 	/*	  for (Funcionario d : this.empregados) {
-		    	System.out.println("Salário: " + d.salario + " Data de admissão : " + d.dataEntrada);
+		    	System.out.println("SalÃ¡rio: " + d.salario + " Data de admissï¿½o : " + d.dataEntrada);
 	        }*/
 		
 		for (int i = 0; i < this.getEmpregados().length; i++) {
 			if (this.getEmpregados()[i] != null)
-				System.out.println("Funcionário na posição: " + this.getEmpregados()[i].getSalario()
-						+ " Data de admissão : " + this.getEmpregados()[i]);
+				System.out.println("FuncionÃ¡rio na posiÃ§Ã£o: " + this.getEmpregados()[i].getSalario()
+						+ " Data de admissï¿½o : " + this.getEmpregados()[i]);
 			continue;
 		}
 	}

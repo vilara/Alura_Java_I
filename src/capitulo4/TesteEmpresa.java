@@ -19,7 +19,7 @@ public class TesteEmpresa {
 		empresa.adicionar(f2);
 		
 		empresa.mostraEmpregados();
-		System.out.println("Número de funcionários cadastrados: " + Funcionario.getIdentificador());
+		System.out.println("NÃºmero de funcionÃ¡rios cadastrados: " + Funcionario.getIdentificador());
 	}
 
 }
