@@ -2,6 +2,14 @@ package br.com.vilara.banco.conta;
 
 import br.com.vilara.banco.ValorInvalidoException;
 
+
+
+/**
+ * @author MarceloMartinsVilara
+ * @param saldo da conta
+ * @
+ *
+ */
 abstract public class Conta {
 
 	public double saldo;
