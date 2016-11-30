@@ -35,7 +35,7 @@ public class Empresa {
 		for (int i = 0; i < this.getEmpregados().length; i++) {
 			if (this.getEmpregados()[i] != null)
 				System.out.println("Funcionário na posição: " + this.getEmpregados()[i].getSalario()
-						+ " Data de admiss�o : " + this.getEmpregados()[i]);
+						+ " Data de admissão : " + this.getEmpregados()[i]);
 			continue;
 		}
 	}
